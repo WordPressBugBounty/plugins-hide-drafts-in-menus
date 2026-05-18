@@ -3,8 +3,8 @@ Contributors: room34
 Donate link: http://room34.com/donation
 Tags: menus, drafts, unpublished, pages
 Requires at least: 4.0
-Tested up to: 6.5.3
-Stable tag: 1.5.1
+Tested up to: 7.0
+Stable tag: 1.5.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,10 @@ _NOTE: We are aware of a limitation in the plugin, that a page/post must be publ
 == Screenshots ==
 
 == Changelog ==
+
+= 1.5.1.1 - 2026.05.18 =
+
+* Bumped "tested up to" to 7.0.
 
 = 1.5.1 - 2024.05.14 =
 

@@ -3,7 +3,7 @@
 Plugin Name: Hide Drafts in Menus
 Plugin URI: http://room34.com
 Description: Hide unpublished pages in your custom menus.
-Version: 1.5.1
+Version: 1.5.1.1
 Author: Room 34 Creative Services, LLC
 Author URI: http://room34.com
 License: GPL2
