@@ -4,7 +4,7 @@ Donate link: http://room34.com/donation
 Tags: menus, drafts, unpublished, pages
 Requires at least: 4.0
 Tested up to: 7.0
-Stable tag: 1.5.1.1
+Stable tag: 1.6.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,9 +30,12 @@ _NOTE: We are aware of a limitation in the plugin, that a page/post must be publ
 
 == Changelog ==
 
-= 1.5.1.1 - 2026.05.18 =
+= 1.6.0.1 - 2026.05.18 =
 
+* Refactored `r34hdm_get_unpublished_items()` function to retrieve non-published posts using `get_posts()` function instead of a direct SQL query. (Note: The previous direct SQL query allowed us to limit the returned list to posts that were already confirmed to be in the menu; however, this method allows for a single query per page rather than one for each menu, which may offset any performance impact.)
+* Miscellaneous tweaks to pass [Plugin Check](https://wordpress.org/plugins/plugin-check/) tests.
 * Bumped "tested up to" to 7.0.
+* Updated copyright year.
 
 = 1.5.1 - 2024.05.14 =
 
